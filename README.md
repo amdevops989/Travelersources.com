@@ -1,11 +1,3 @@
-Perfect 👌
-Here is a well-structured, job-seeker optimized README.md for your project Travelersources.com.
-
-You can copy this directly into your GitHub repo.
-
-
----
-
 🌍 Travelersources.com
 
 Enterprise Cloud-Native Microservices Platform on AWS EKS
