@@ -1,0 +1,6 @@
+locals {
+  env          = "dr"
+  aws_region   = "us-west-2"
+  aws_profile  = "dev-sso"
+  project_name = "travelersources"
+}

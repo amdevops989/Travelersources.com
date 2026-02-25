@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: ts-dns-cert
+  namespace: istio-ingress
+spec:
+  secretName: ts-dns-tls-secret
+  dnsNames:
+    - travelersources.com
+    - www.travelersources.com
+    - api.travelersources.com
+  issuerRef:
+    name: production-cluster-issuer
+    kind: ClusterIssuer
