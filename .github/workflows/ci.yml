@@ -7,11 +7,11 @@ on:
       - dev
       - "release/**"
     paths:
-      - "ironality-app/**"
+      - "travelersources-app/**"
       # - "frontend/**"
   ## pull_request:
     paths:
-      - "ironality-app/**"
+      - "travelersources-app/**"
 permissions:
   contents: write   # Needed to push Git tags via PAT
   packages: write 

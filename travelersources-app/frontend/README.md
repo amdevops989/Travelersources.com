@@ -1,0 +1,1 @@
+For build we need to update some apk to pass the trivy scan
