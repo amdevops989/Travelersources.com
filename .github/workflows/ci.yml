@@ -3,7 +3,8 @@ name: "Monorepo CI — Build & Push Changed Services"
 on:
   push:
     branches:
-      - main
+      - prod   # manual approuval needed 
+      - stg
       - dev
       - "release/**"
     paths:
